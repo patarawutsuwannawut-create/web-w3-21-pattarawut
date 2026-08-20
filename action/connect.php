@@ -1,8 +1,4 @@
 <?php
-
-$con = mysqli_connect("localhost", "root","","kfc_db");
-
-//if(!$con){
-//    die("เชื่อมต่อไม่สำเร็จ");
-//}
-//echo "เชื่อมต่อสำเร็จ";
+$con = mysqli_connect("localhost", "root", "", "kfc_db"); // เปลี่ยน kfc_db เป็นชื่อฐานข้อมูลของคุณใน phpMyAdmin
+mysqli_set_charset($con, "utf8"); // ป้องกันปัญหาภาษาไทยเพี้ยน
+?>
