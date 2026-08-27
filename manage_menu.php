@@ -397,7 +397,7 @@ alt=""
 <td><span class="type-tag">ประเภท <?= $menu["type_id"] ?></span></td>
 <td>
     <div class="row-actions">
-        <a class="edit-btn" href="edit.menu.php">แก้ไข</a>
+        <a class="edit-btn" href="edit_menu.php?id=<?= $menu["menu_id"] ?>">แก้ไข</a>
         <a class="delete-btn" href="action/delete_menu.php?id=<?= $menu["menu_id"] ?>">ลบ</a>
     </div>
 </td>

@@ -306,12 +306,7 @@
     </div>
 
     <?php
-        //แสดง error
-
-        // Report all PHP errors
         error_reporting(E_ALL);
-
-        // Force errors to be displayed on the screen
         ini_set('display_errors', 1);
         ini_set('display_startup_errors', 1);
 
@@ -319,7 +314,6 @@
 
         $sql = "SELECT * FROM menus";
         $result = mysqli_query($con, $sql);
-        // var_dump($result);
     ?>
 
     <div class="board-header">
